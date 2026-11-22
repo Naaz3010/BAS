@@ -1,0 +1,18 @@
+# secrets / local config
+.env
+pipeline_config.json
+.streamlit/secrets.toml
+
+# generated output (contains business data)
+pipeline_outputs/
+pipeline_log.csv
+
+# python / env
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# editor
+.vscode/

@@ -1,0 +1,19 @@
+{
+  "source_path": "sample_data/sample_sales.csv",
+  "source_type": "csv",
+  "forecast_periods": 14,
+  "forecast_freq": "D",
+  "anomaly_zscore_threshold": 3.0,
+  "email": {
+    "enabled": false,
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "",
+    "recipients": [
+      "you@example.com"
+    ],
+    "alert_recipients": [
+      "you@example.com"
+    ]
+  }
+}
